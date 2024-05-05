@@ -1,0 +1,108 @@
+#verify-sig-container {
+    min-height: 80vh;
+    max-height: fit-content;
+    padding: 50px 20px;
+    padding-top: 14vh;
+    padding-bottom: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#verify-sig-head {
+    margin-bottom: 2vh;
+    text-align: start;
+    max-width: 70vw;
+    max-width: 500px;
+}
+
+#verify-sig-head > h3 {
+    font-size: 1.7em;
+    word-break: break-all;
+    margin-block: 0px;
+}
+
+#verify-sig-head > p {
+    font-size: .8em;
+    max-width: 300px;
+}
+
+#verify-sig-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding:10px 10px;
+}
+
+#verify-input-label-div {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 20px;
+}
+
+#fileName {
+    display: block;
+    margin-top: 0px;
+    font-size: .8em;
+    width: fit-content;
+}
+
+#upload-doc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
+    max-height: 40vh;
+}
+
+#target-address-input {
+    display: flex;
+    flex-direction: column;
+}
+
+#addressInput {
+    padding: 5px;
+    margin-block: 5px;
+    width: 300px;
+    border-radius: 10px;
+    border-color: gray;
+}
+
+input:focus{
+    outline: none;
+    border-color: red;
+}
+
+#verified-sigs-found {
+
+}
+
+.verified-sig {
+    font-size: .7em;
+    border: 1px solid rgb(90, 90, 90);
+    max-width: 200px;
+    text-align: start;
+    word-break: break-all;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.verified-sig > p {
+    margin-block: 4px;
+}
+
+.verified-sig > p > em {
+    /* color: #167e28; */
+    color: #cbb522;
+}
+
+.search-message {
+    color: purple;
+    font-size: .90em;
+    width: 300px;
+}

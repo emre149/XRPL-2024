@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Exo:wght@700&family=Kdam+Thmor+Pro&family=Roboto+Condensed:wght@300&family=Sulphur+Point:wght@700&display=swap');
+
+.w-6 {
+  width: 22px;
+}
+
+.h-6 {
+  height: 22px;
+}
+
+svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  width: 100vw;
+  margin: 0;
+  text-align: center;
+}
+
+.buttonPop {
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+}
+
+.buttonPop:hover {
+  box-shadow: inset 2px 2px 2px 1px rgba(59, 59, 59, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    0px 0px 0px 0px rgba(0, 0, 0, .1);
+}
+
+.backgroundLogoContainer {
+  width: 98%;
+  position: absolute;
+  left: 0px;
+  top: 25%;
+}
+
+.backgroundLogo {
+  width: 70%;
+  max-width: 400px;
+  opacity: .035;
+  margin-inline: auto;
+}
+
+/* UploadDocumentComponent Viewer Styles */
+/* #react-dov-viewer {
+  height: 60%;
+} */
+/* #file-name {
+  color: white;
+}
+
+#search-plus-icon {
+  fill: white;
+}
+
+#pdf-zoom-reset svg path{
+  fill: white;
+  color: white;
+} */
+
+#doc-nav-info {
+  margin: 0px;
+  margin-top: 2px;
+}
+
+#txt-renderer {
+  font-size: 12px;
+  text-align: start;
+}
+
+#pdf-download {
+  display: none;
+}
+
+#no-renderer {
+  width: 100%;
+  padding: 20px;
+}
+
+#no-renderer-download {
+  display: none;
+}
+
+#header-bar {
+  font-size: 12px;
+}
+
+button.loading
+{
+  cursor: not-allowed;
+  background-color: #333;
+}
